@@ -356,7 +356,7 @@
         }
         else {
             if (self.delegate && [self.delegate respondsToSelector:@selector(LXAlertView:clickedButtonAtIndex:)]) {
-                [self.delegate LXAlertView:self clickedButtonAtIndex:self.result.buttonIndex];
+                [self.delegate alertView:self clickedButtonAtIndex:self.result.buttonIndex];
             }
         }
     }];

@@ -64,6 +64,6 @@ typedef enum {
 
 @optional
 
-- (void)LXAlertView:(LXAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex;
+- (void)alertView:(LXAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex;
 
 @end
