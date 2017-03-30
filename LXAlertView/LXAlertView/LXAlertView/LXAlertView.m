@@ -355,7 +355,7 @@
             self.dismissBlock(self.result);
         }
         else {
-            if (self.delegate && [self.delegate respondsToSelector:@selector(LXAlertView:clickedButtonAtIndex:)]) {
+            if (self.delegate && [self.delegate respondsToSelector:@selector(alertView:clickedButtonAtIndex:)]) {
                 [self.delegate alertView:self clickedButtonAtIndex:self.result.buttonIndex];
             }
         }
